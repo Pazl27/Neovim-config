@@ -14,6 +14,7 @@ keymap.set("n", "<leader>qa", ":q<CR>", { desc = "Quit" })
 keymap.set("n","<C-s>", ":w<CR>", {desc = "Save File"})
 
 -- window management
+-- wk.register({ s = { name = "Window" } }) -- register a prefix
 keymap.set("n", "<leader>sv", "<C-w>v", { desc = "Split window vertically" }) -- split window vertically
 keymap.set("n", "<leader>sh", "<C-w>s", { desc = "Split window horizontally" }) -- split window horizontally
 keymap.set("n", "<leader>se", "<C-w>=", { desc = "Make splits equal size" }) -- make split windows equal width & height
