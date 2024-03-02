@@ -1,6 +1,7 @@
 -- set leader key to space
 vim.g.mapleader = " "
 
+
 local keymap = vim.keymap -- for conciseness
 
 local wk = require("paul.plugins.which-key")
@@ -54,3 +55,7 @@ keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<CR>", { desc = "Help tag
 keymap.set("n", "<leader>tt", "<cmd>ToggleTerm<CR>", { desc = "Toggle terminal" })
 keymap.set("t", "<esc>", "<C-\\><C-n>", { desc = "Exit terminal mode" })
 keymap.set("n", "<leader>tk", "<cmd>q<CR>", { desc = "Kill terminal" })
+
+-- None-ls
+-- wk.register({ l = { name = "LSP" } }) -- register a prefix
+keymap.set("n", "<leader>xf", "<cmd>lua vim.lsp.buf.format() <CR>", { desc = "Format buffer" })
