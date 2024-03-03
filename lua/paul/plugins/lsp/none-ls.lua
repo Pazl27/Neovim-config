@@ -22,6 +22,8 @@ return {
         "clang_format", -- c/c++ formatter
         "cpplint",      -- c/c++ linter
         "isort",        -- python formatter
+        "goline",       -- go formatter
+        "goimports",    -- go formatter
       },
     })
 
@@ -35,22 +37,26 @@ return {
       root_dir = null_ls_utils.root_pattern(".null-ls-root", "Makefile", ".git", "package.json"),
       -- setup formatters & linters
       sources = {
-        --js/ts fromatter
+        -- js/ts fromatter
         formatting.prettier.with({
           extra_filetypes = { "svelte" },
         }),
 
-        --lua
+        -- lua
         formatting.stylua,
 
-        --python
+        -- python
         formatting.isort,
         formatting.black,
         diagnostics.pylint,
 
-        --c/c++
+        -- c/c++
         formatting.clang_format,
         diagnostics.cpplint,
+
+        -- go
+        formatting.goline,
+        formatting.goimports_reviser,
 
         -- js/ts linter
         diagnostics.eslint_d.with({
@@ -58,6 +64,7 @@ return {
             return utils.root_has_file({ ".eslintrc.js", ".eslintrc.cjs" }) -- only enable if root has .eslintrc.js or .eslintrc.cjs
           end,
         }),
+
       },
     })
 

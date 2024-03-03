@@ -149,6 +149,21 @@ return {
       on_attach = on_attach,
     })
 
+    -- configure go server
+    lspconfig["gopls"].setup({
+      capabilities = capabilities,
+      on_attach = on_attach,
+      fileypes = { "go", "gomod" },
+      settings = {
+        gopls = {
+          completeUnimported = true,
+          analyses = {
+            unusedparams = true,
+          },
+        }
+      }
+    })
+
     -- configure lua server (with special settings)
     lspconfig["lua_ls"].setup({
       capabilities = capabilities,

@@ -8,10 +8,10 @@ local wk = require("paul.plugins.which-key")
 
 ---------------------
 -- General Keymaps -------------------
-keymap.set("i", "<esc>", "<esc>:w<CR>", { desc = "Save on escape" })
-keymap.set("n", "<esc>", ":w<CR>", { desc = "Save on escape" })
+keymap.set("i", "<esc>", "<esc>:wa<CR>", { desc = "Save on escape" })
+keymap.set("n", "<esc>", ":wa<CR>", { desc = "Save on escape" })
 
-keymap.set("n", "<leader>qa", ":q<CR>", { desc = "Quit" })
+keymap.set("n", "<leader>qa", ":qa<CR>", { desc = "Quit" })
 keymap.set("n","<C-s>", ":w<CR>", {desc = "Save File"})
 
 -- window management
