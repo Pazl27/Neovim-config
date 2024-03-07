@@ -13,8 +13,11 @@ keymap.set("n", "<esc>", ":wa<CR>", { desc = "Save on escape" })
 
 keymap.set("n", "<leader>qa", ":qa<CR>", { desc = "Quit" })
 keymap.set("n","<C-s>", ":w<CR>", {desc = "Save File"})
+vim.api.nvim_set_keymap('n', 'U', '<C-r>', { noremap = true })
 
--- window management
+vim.api.nvim_set_keymap('x', 'J', ":move '<-2<CR>gv=gv", { noremap = true, silent = true })
+vim.api.nvim_set_keymap('x', 'K', ":move '>+1<CR>gv=gv", { noremap = true, silent = true })
+
 -- wk.register({ s = { name = "Window" } }) -- register a prefix
 keymap.set("n", "<leader>sv", "<C-w>v", { desc = "Split window vertically" }) -- split window vertically
 keymap.set("n", "<leader>sh", "<C-w>s", { desc = "Split window horizontally" }) -- split window horizontally
