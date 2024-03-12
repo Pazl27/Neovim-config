@@ -18,6 +18,11 @@ vim.api.nvim_set_keymap('n', 'U', '<C-r>', { noremap = true })
 vim.api.nvim_set_keymap('x', 'J', ":move '<-2<CR>gv=gv", { noremap = true, silent = true })
 vim.api.nvim_set_keymap('x', 'K', ":move '>+1<CR>gv=gv", { noremap = true, silent = true })
 
+-- Copy/past to/from system clipboard (with ctrl-c/ctrl-v)
+vim.api.nvim_set_keymap('n', '<C-v>', '"+p', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('v', '<C-c>', '"+y', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('i', '<C-v>', '"+p', { noremap = true, silent = true })
+
 -- wk.register({ s = { name = "Window" } }) -- register a prefix
 keymap.set("n", "<leader>sv", "<C-w>v", { desc = "Split window vertically" }) -- split window vertically
 keymap.set("n", "<leader>sh", "<C-w>s", { desc = "Split window horizontally" }) -- split window horizontally
