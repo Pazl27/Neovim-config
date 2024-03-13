@@ -67,3 +67,8 @@ keymap.set("n", "<leader>tk", "<cmd>q<CR>", { desc = "Kill terminal" })
 -- None-ls
 -- wk.register({ l = { name = "LSP" } }) -- register a prefix
 keymap.set("n", "<leader>xf", "<cmd>lua vim.lsp.buf.format() <CR>", { desc = "Format buffer" })
+
+-- Live Session
+keymap.set("n", "<leader>lS", "<cmd>SessionSave<CR>", { desc = "Save session" })
+keymap.set("n", "<leader>lr", "<cmd>SessionRestore<CR>", { desc = "Restore session" })
+keymap.set("n", "<leader>ld", "<cmd>SessionDelete<CR>", { desc = "Delete session" })

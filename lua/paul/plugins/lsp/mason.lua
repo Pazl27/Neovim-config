@@ -33,7 +33,7 @@ return {
         "tailwindcss",
         "svelte",
         "lua_ls",
-        "graphql",
+        -- "graphql",
         "emmet_ls",
         "prismals",
         "pyright",
