@@ -60,10 +60,10 @@ keymap.set("n", "<leader>fb", "<cmd>Telescope buffers<CR>", { desc = "Buffers" }
 keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<CR>", { desc = "Help tags" })
 
 -- Terminal
-keymap.set("n", "<leader>tt", "<cmd>ToggleTerm direction=horizontal size=15<CR>", { desc = "Toggle terminal" })
+keymap.set("n", "<leader>tt", "<cmd>ToggleTerm direction=horizontal<CR>", { desc = "Toggle terminal" })
 keymap.set("t", "<esc>", "<C-\\><C-n>", { desc = "Exit terminal mode" })
 keymap.set("n", "<leader>tk", "<cmd>q<CR>", { desc = "Kill terminal" })
-keymap.set("n", "<leader>tf", "<cmd>ToggleTerm<CR>", { desc = "Toggle floating terminal" })
+keymap.set("n", "<leader>tf", "<cmd>ToggleTerm direction=float<CR>", { desc = "Toggle floating terminal" })
 
 -- None-ls
 -- wk.register({ l = { name = "LSP" } }) -- register a prefix
