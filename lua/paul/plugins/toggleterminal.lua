@@ -11,7 +11,7 @@
 	    size = 10,
 	    open_mapping = [[<C-\>]],
 	    start_in_insert = true,
-	    direction = "float",
+	    direction = "float", -- or "horizontal" or "vertical"
 	    shell = "pwsh.exe",
 	    float_opts = {
 		    border = "curved",
