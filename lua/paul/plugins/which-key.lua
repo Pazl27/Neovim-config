@@ -14,6 +14,6 @@ return {
     wk.register({ x = { name = "LSP" } }, { prefix = "<leader>"}) -- register a prefix
     wk.register({ r = { name = "Rename|Restart" } }, { prefix = "<leader>"}) -- register a prefix
     wk.register({ q = { name = "Quit" } }, { prefix = "<leader>"}) -- register a prefix
-    wk.register({ c = { name = "CodeActions" } }, { prefix = "<leader>"}) -- register a prefix
+    wk.register({ c = { name = "CodeActions|Copilot" } }, { prefix = "<leader>"}) -- register a prefix
   end,
 }

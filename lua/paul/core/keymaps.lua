@@ -65,6 +65,10 @@ keymap.set("t", "<esc>", "<C-\\><C-n>", { desc = "Exit terminal mode" })
 keymap.set("n", "<leader>tk", "<cmd>q<CR>", { desc = "Kill terminal" })
 keymap.set("n", "<leader>tf", "<cmd>ToggleTerm direction=float<CR>", { desc = "Toggle floating terminal" })
 
+
+-- Copilot 
+keymap.set("n", "<leader>cc", "<cmd>CopilotChatToggle<CR>", { desc = "CopilotChat" })
+
 -- None-ls
 -- wk.register({ l = { name = "LSP" } }) -- register a prefix
 keymap.set("n", "<leader>xf", "<cmd>lua vim.lsp.buf.format() <CR>", { desc = "Format buffer" })
