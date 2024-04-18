@@ -15,8 +15,8 @@ keymap.set("n", "<leader>qa", ":qa<CR>", { desc = "Quit" })
 keymap.set("n","<C-s>", ":w<CR>", {desc = "Save File"})
 vim.api.nvim_set_keymap('n', 'U', '<C-r>', { noremap = true })
 
-vim.api.nvim_set_keymap('x', 'J', ":move '<-2<CR>gv=gv", { noremap = true, silent = true })
-vim.api.nvim_set_keymap('x', 'K', ":move '>+1<CR>gv=gv", { noremap = true, silent = true })
+vim.api.nvim_set_keymap('x', 'K', ":move '<-2<CR>gv=gv", { noremap = true, silent = true })
+vim.api.nvim_set_keymap('x', 'J', ":move '>+1<CR>gv=gv", { noremap = true, silent = true })
 
 -- Copy/past to/from system clipboard (with ctrl-c/ctrl-v)
 vim.api.nvim_set_keymap('n', '<C-v>', '"+p', { noremap = true, silent = true })
@@ -60,7 +60,6 @@ keymap.set("n", "<leader>tt", "<cmd>ToggleTerm direction=horizontal<CR>", { desc
 keymap.set("t", "<esc>", "<C-\\><C-n>", { desc = "Exit terminal mode" })
 keymap.set("n", "<leader>tk", "<cmd>q<CR>", { desc = "Kill terminal" })
 keymap.set("n", "<leader>tf", "<cmd>ToggleTerm direction=float<CR>", { desc = "Toggle floating terminal" })
-
 
 -- Copilot 
 keymap.set("n", "<leader>cc", "<cmd>CopilotChatToggle<CR>", { desc = "CopilotChat" })
