@@ -8,10 +8,11 @@ return {
     },
     opts = {
       debug = true, -- Enable debugging
-      -- See Configuration section for rest
+      show_help = false,
     window = {
       layout = 'float',
       title = 'Chat Bre',
+      border = 'rounded',
     }
     },
 
