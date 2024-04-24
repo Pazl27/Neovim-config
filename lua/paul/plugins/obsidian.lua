@@ -17,6 +17,7 @@ return {
     -- see below for full list of optional dependencies 👇
   },
   opts = {
+    conceallevel = 1,
     workspaces = {
       {
         name = "personal",
@@ -24,7 +25,5 @@ return {
       },
     },
 
-    -- see below for full list of options 👇
-    conceallevel = 2,
   },
 }
