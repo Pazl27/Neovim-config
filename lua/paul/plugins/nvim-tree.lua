@@ -28,9 +28,9 @@ return {
           highlight = "NeoTreeModified",
         },
         icon = {
-          folder_closed = "",
+          folder_closed = "",
           folder_open = "",
-          folder_empty = "",
+          folder_empty = "",
           folder_empty_open = "",
         },
         git_status = {
@@ -104,8 +104,7 @@ return {
 --     -- change color for arrows in tree to light blue
 --     vim.cmd([[ highlight NvimTreeFolderArrowClosed guifg=#458588 ]])
 --     vim.cmd([[ highlight NvimTreeFolderArrowOpen guifg=#458588 ]])
---
---     -- configure nvim-tree
+-- -- configure nvim-tree
 --     nvimtree.setup({
 --       view = {
 --         width = 35,
