@@ -22,7 +22,7 @@ Copied from [here](https://github.com/Magi3r/nvim/blob/1da6ca8ab79babf1d9e92c708
 - Plugin manager: [lazy](https://github.com/folke/lazy.nvim)
 - [alpha-nvim](https://github.com/goolord/alpha-nvim)
 - [autopairs](https://github.com/windwp/nvim-autopairs)
-- [bufferline](https://github.com/akinsho/bufferline.nvim)
+- [cokeline](https://github.com/willothy/nvim-cokeline)
 - [gruvbox](https://github.com/ellisonleao/gruvbox.nvim)
 - [comment](https://github.com/numToStr/Comment.nvim)
 - [copilot-chat](https://github.com/CopilotC-Nvim/CopilotChat.nvim)

@@ -48,7 +48,6 @@ return {
       "nvim-lua/plenary.nvim",
       "nvim-tree/nvim-web-devicons",
       "nvim-telescope/telescope-ui-select.nvim",
-      "telescope-dap.nvim",
       "kkharji/sqlite.lua",
       -- "nvim-telescope/telescope-frecency.nvim",
     },
