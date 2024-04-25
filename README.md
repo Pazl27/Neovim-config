@@ -46,6 +46,7 @@ Alpha copied from [here](https://github.com/Magi3r/nvim/blob/1da6ca8ab79babf1d9e
 - [none-ls](https://github.com/nvimtools/none-ls.nvim)
 - [lsp-config](https://github.com/neovim/nvim-lspconfig)
 - [rust-tools](https://github.com/simrat39/rust-tools.nvim)
+- [banner](https://github.com/the-argus/banner.nvim)
 
 ## Planned
 - [ ] own colorscheme based on gruvbox(more red and pink less green)
