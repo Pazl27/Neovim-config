@@ -16,7 +16,8 @@ I am running neovim on Windows so my configuration is based on that but it shoul
 
 ![alpha](./Screenshots/alpha.png)
 Copied from [here](https://github.com/Magi3r/nvim/blob/1da6ca8ab79babf1d9e92c708b0137e16ab6be6f/lua/plugins/alpha-nvim.lua)
-![editor](./Screenshots/editor.png)
+![editor](./Screenshots/editor2.png)
+![editor](./Screenshots/editor1.png)
 
 ## Plugins
 - Plugin manager: [lazy](https://github.com/folke/lazy.nvim)
