@@ -14,8 +14,8 @@ My configuration is based around the colorscheme `gruvbox`.
 I am running neovim on Windows so my configuration is based on that but it should work on other platforms as well except for toggleterm which uses powershell.
 
 
-![alpha](./Screenshots/alpha.png)
 Copied from [here](https://github.com/Magi3r/nvim/blob/1da6ca8ab79babf1d9e92c708b0137e16ab6be6f/lua/plugins/alpha-nvim.lua)
+![alpha](./Screenshots/alpha.png)
 ![editor](./Screenshots/editor2.png)
 ![editor](./Screenshots/editor1.png)
 
