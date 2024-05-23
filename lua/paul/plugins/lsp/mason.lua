@@ -32,7 +32,6 @@ return {
         "cssls",
         "tailwindcss",
         "svelte",
-        "prismals",
         "rust_analyzer",
         "emmet_ls",
         "pyright",

@@ -59,7 +59,6 @@ return {
       keymap.set("n", "<leader>rs", ":LspRestart<CR>", opts)
     end
 
-    -- used to enable autocompletion (assign to every lsp server config)
     local capabilities = cmp_nvim_lsp.default_capabilities()
 
     local signs = { Error = " ", Warn = " ", Hint = "󰠠 ", Info = " " }
@@ -107,12 +106,6 @@ return {
           end,
         })
       end,
-    })
-
-    -- configure prisma orm server(database)
-    lspconfig["prismals"].setup({
-      capabilities = capabilities,
-      on_attach = on_attach,
     })
 
     -- configure rust-analyzer server
