@@ -34,7 +34,6 @@ Alpha copied from [here](https://github.com/Magi3r/nvim/blob/1da6ca8ab79babf1d9e
 - [mini-indent](https://github.com/echasnovski/mini.indentscope)
 - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
 - [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua)
-- [obsidian](https://github.com/nvim-tree/nvim-tree.lua)
 - [telescope](https://github.com/nvim-telescope/telescope.nvim)
 - [todo-comments](https://github.com/folke/todo-comments.nvim)
 - [treesitter](https://github.com/nvim-telescope/telescope.nvim)
